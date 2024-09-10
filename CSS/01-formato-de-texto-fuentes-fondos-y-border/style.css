@@ -6,17 +6,84 @@
 header {
     padding-left: 15px;
     padding-bottom: 15px;
-    margin-top: 20px;
-    border-bottom: 2px solid rgba(219, 219, 219, .5);
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255, 0.5);
+    text-align: left;
+    border-bottom: 3px dotted white;
 }
 
 header h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 15px;
+    color: chocolate;
 }
 
 header p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
     padding-left: 30px;
+    font-size: 20px;
+    font-style: italic;
+    color:midnightblue;
+}
+
+body {
+    background-color: #dcdcdc;
+    text-align: center;
+    background-image: url("img/whale.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    background-color: #ebe9e9;
+    width: 80%;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 2%;
+    box-shadow: 3px 7px 20px rgb(14, 209, 89);
+    border: 3px dashed red;
+}
+
+#contenido, h2, p, ol, ul { 
+    padding: 20px;
+}
+
+#introduccion img {
+    width: 600px;
+}
+
+#contenido img{
+    width: 600px;
+}
+
+#contenido a {
+    text-decoration: none;
+    color: rgb(34, 34, 245);
+    transition: 0.4s;
+}
+
+#contenido a:hover{
+    text-shadow: 1px 1px 10px rgb(0, 26, 255);
+    color: rgb(115, 28, 255);
+}
+
+footer {
+    background-color: #dcdcdc;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 2%;
+    box-shadow: 3px 7px 20px rgb(97, 97, 97);
+    border: 3px dashed red;
+}
+
+
+
+p, ol, ul, table, form {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
