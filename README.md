@@ -7,3 +7,4 @@
 
 ## CSS
 1. [Ejercicio #1 - Formato de texto, fuentes, fondos y border](/CSS/01-formato-de-texto-fuentes-fondos-y-border/index.html)
+2. [Ejercicio #2 - Tarjeta](/CSS/02-tarjeta/index.html)
