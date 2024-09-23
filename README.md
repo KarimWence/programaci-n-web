@@ -9,3 +9,4 @@
 1. [Ejercicio #1 - Formato de texto, fuentes, fondos y border](/CSS/01-formato-de-texto-fuentes-fondos-y-border/index.html)
 2. [Ejercicio #2 - Tarjeta](/CSS/02-tarjeta/index.html)
 3. [Ejercicio #3 - Header sticky](/CSS/03-header-sticky/index.html)
+4. [Ejercicio #4 - Formulario con estilos, pseudoelementos y pseudoclasesTarea](/CSS/04-formulario-con-estilos-pseudoelementos-y-pseudoclases/index.html)
