@@ -11,3 +11,4 @@
 3. [Ejercicio #3 - Header sticky](/CSS/03-header-sticky/index.html)
 4. [Ejercicio #4 - Formulario con estilos, pseudoelementos y pseudoclasesTarea](/CSS/04-formulario-con-estilos-pseudoelementos-y-pseudoclases/index.html)
 5. [Ejercicio #5 - Sitio con tarjetas (Flex)](/CSS/05-sitio-con-tarjetas-(flex)/index.html)
+6. [Ejercicio #6 - Variables y funciones](/CSS/06-variables-y-funciones/index.html)
