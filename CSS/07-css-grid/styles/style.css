@@ -22,6 +22,7 @@ header {
     width: 100%;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 nav {
@@ -165,6 +166,54 @@ li:hover .submenu-recipes {
 .submenu-recipes a:hover {
     background-color: rgb(243, 243, 243);
     box-shadow: 0px 1px 8px var(--regular-shadow-color);
+}
+
+.slide-container {
+    padding: 2rem;
+}
+
+.slider-wrapper {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+    box-shadow: 3px 4px 25px var(--regular-shadow-color);
+    border-radius: 0.5rem;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: 0.5rem;
+}
+
+.slider img {
+    flex: 1 0 100%;
+    object-fit: cover;
+}
+
+.slider-nav {
+    display: flex;
+    padding-top: 2%;
+    width: 100%;
+    column-gap: 1rem;
+    z-index: 1;
+    justify-content: center;
+}
+
+.slider-nav a {
+    width: 100px;
+    height: 7px;
+    border-radius: 1px;
+    background-color: #3B5159;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
 }
 
 .cards-container {
