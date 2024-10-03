@@ -12,3 +12,4 @@
 4. [Ejercicio #4 - Formulario con estilos, pseudoelementos y pseudoclasesTarea](/CSS/04-formulario-con-estilos-pseudoelementos-y-pseudoclases/index.html)
 5. [Ejercicio #5 - Sitio con tarjetas (Flex)](/CSS/05-sitio-con-tarjetas-(flex)/index.html)
 6. [Ejercicio #6 - Variables y funciones](/CSS/06-variables-y-funciones/index.html)
+7. [Ejercicio #7 - CSS Grid](/CSS/07-css-grid/index.html)
