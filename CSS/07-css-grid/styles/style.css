@@ -22,7 +22,7 @@ header {
     width: 100%;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 nav {
@@ -184,14 +184,43 @@ li:hover .submenu-recipes {
     display: flex;
     aspect-ratio: 16 / 9;
     overflow-x: hidden;
+    overflow-y: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     border-radius: 0.5rem;
 }
 
-.slider img {
-    flex: 1 0 100%;
-    object-fit: cover;
+.slides-container {
+    aspect-ratio: 16 / 9;
+    position: relative;
+}
+
+.slides-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.description-container {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    bottom: 0;
+    background: rgba(59, 81, 89, .90);
+    z-index: 1;
+}
+
+.description-container h3 {
+    color: white;
+    font-family: var(--headers-text-font);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.description-container p{
+    color: white;
+    font-family: var(--content-text-font);
+    font-size: 15px;
+    padding-left: 10px;
 }
 
 .slider-nav {
