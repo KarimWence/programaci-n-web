@@ -89,7 +89,7 @@ nav {
     cursor: pointer;
 }
 
-.menu {
+#check, .checkbtn {
     display: none;
 }
 
@@ -333,13 +333,12 @@ li:hover .submenu-recipes {
         justify-content: center;
         align-items: center;
     }
-
-    /*.menu #check{
-        display: none;
-    }*/
-
     .checkbtn {
+        display: block;
         color: var(--dark-background-color);
+        position: absolute;
+        top: 36%;
+        right: 10%;
         font-size: 25px
     }
 
@@ -351,31 +350,49 @@ li:hover .submenu-recipes {
     }
 
     .links-container-father {
+        padding-top: 25%;
         align-items: center;
         position: fixed;
-        width: 100%;
+        width: 50%;
         height: 100vh;
         background: var(--dark-background-color);
-        left: -100%;
+        left: -50%;
         transition: all .5s;
+    }
+
+    .links-container-father {
+        height: 100%;
     }
 
     .options {
         display: block;
         justify-content: center;
         align-items: center;
-        left: 0;
+        width: 100%;
+        height: 100%;
     }
     
     .main-link {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        color: white;
+    }
+
+    .main-link:hover {
+        background-color: none;
+        text-shadow: none;
     }
 
     .links-container {
-        margin: 0;
+        width: 100%;
+        height: 10%;
+        margin-left: 0;
     }
 
-    .top-actions-container #check:checked ~ .links-container-father{
+    #check:checked ~ .links-container-father{
         left: 0;
     }
 
