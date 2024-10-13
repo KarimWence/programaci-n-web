@@ -418,7 +418,9 @@ li:hover .submenu-recipes {
     .slide-container {
         padding: 0;
     }
-    .slider, .slider-wrapper{
+
+    .slider, .slider-wrapper, .slides-container{
+        aspect-ratio: 3/2;
         border-radius: 0;
     }
 
