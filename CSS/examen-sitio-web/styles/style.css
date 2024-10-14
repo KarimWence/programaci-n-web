@@ -323,6 +323,17 @@ li:hover .submenu-recipes {
     box-shadow: inset 1px 1px 10px var(--regular-shadow-color);
 }
 
+.page1-content {
+    display: flex;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 3%;
+    background: white;
+    box-shadow: 3px 4px 25px var(--regular-shadow-color);
+    padding: 1%;
+}
+
 footer {
     width: 100%;
     height: auto;
@@ -626,5 +637,9 @@ form .button-container button:active {
 
     .left-container img {
         width: 30%;
+    }
+
+    .page1-content {
+        width: 100%;
     }
 }
