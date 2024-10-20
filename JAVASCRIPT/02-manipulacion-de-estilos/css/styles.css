@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .5s;
+}
+
+.container {
+    display: block;
+    margin: 3%;
+    width: 600px;
+    height: 300px;
+    box-shadow: 2px 3px 18px 1px rgba(0, 0, 0, .5);
+}
