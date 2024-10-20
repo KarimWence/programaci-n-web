@@ -19,3 +19,4 @@
 
 ## JAVASCRIPT
 1. [Ejercicio #1 - Calculadora](/JAVASCRIPT/01-calculadora/index.html)
+2. [Ejercicio 2 - Manipulación de estilos](/JAVASCRIPT/02-manipulacion-de-estilos/index.html)
