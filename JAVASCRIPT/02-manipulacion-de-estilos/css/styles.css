@@ -4,10 +4,12 @@
 }
 
 body {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color .5s;
+    transition: background-color .5s, color .5s;
 }
 
 .container {
@@ -16,4 +18,70 @@ body {
     width: 600px;
     height: 300px;
     box-shadow: 2px 3px 18px 1px rgba(0, 0, 0, .5);
+}
+
+.title {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttons-container {
+    width: 100%;
+    height: 40%;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+button {
+    width: auto;
+    padding: 3% 4%;
+    border-radius: 3px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: inset 1px 1px 10px 1px rgba(0, 0, 0, .5);
+}
+
+#red-button {
+    background: red;
+}
+
+#green-button {
+    background: green;
+}
+
+#blue-button {
+    background: blue;
+}
+
+#restart-button {
+    background: #ccc;
+    color: black;
 }
