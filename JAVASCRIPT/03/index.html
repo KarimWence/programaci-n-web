@@ -9,29 +9,34 @@
 <body>
     <div class="container calculator">
         <div class="input-container">
-            <input type="number" name="" id="">
+            <input type="number" name="" id="input-results">
         </div>
         <div class="buttons-container">
-            <button class="calc-button seven" type="button">7</button>
-            <button class="calc-button eight" type="button">8</button>
-            <button class="calc-button nine" type="button">9</button>
-            <button class="calc-button division" type="button">/</button>
-            <button class="calc-button four" type="button">4</button>
-            <button class="calc-button five" type="button">5</button>
-            <button class="calc-button six" type="button">6</button>
-            <button class="calc-button multiply" type="button">*</button>
-            <button class="calc-button one" type="button">1</button>
-            <button class="calc-button two" type="button">2</button>
-            <button class="calc-button three" type="button">3</button>
-            <button class="calc-button minus" type="button">-</button>
-            <button class="calc-button zero" type="button">0</button>
-            <button class="calc-button equals" type="button">=</button>
-            <button class="calc-button clear" type="button">C</button>
-            <button class="calc-button plus" type="button">+</button>
+            <button class="calc-button number" type="button">7</button>
+            <button class="calc-button number" type="button">8</button>
+            <button class="calc-button number" type="button">9</button>
+            <button class="calc-button op" type="button">/</button>
+            <button class="calc-button number" type="button">4</button>
+            <button class="calc-button number" type="button">5</button>
+            <button class="calc-button number" type="button">6</button>
+            <button class="calc-button operations-list" type="button">*</button>
+            <button class="calc-button number" type="button">1</button>
+            <button class="calc-button number" type="button">2</button>
+            <button class="calc-button number" type="button">3</button>
+            <button class="calc-button op" type="button">-</button>
+            <button class="calc-button number" type="button">0</button>
+            <button class="calc-button op" type="button">=</button>
+            <button class="calc-button op" type="button">C</button>
+            <button class="calc-button op" type="button">+</button>
         </div>
     </div>
-    <div class="container results">
-
+    <div class="container">
+        <div class="history-title">
+            <h3>Historial de operaciones</h3>
+        </div>
+        <div class="list-container">
+            <ul id="operations-list"></ul>
+        </div>
     </div>
     <script src="js/index.js"></script>
 </body>
