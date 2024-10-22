@@ -1,21 +1,12 @@
 const inputText = document.getElementById("input-results");
 const operationList = document.getElementById("operations-list");
-const numButtons = document.getElementsByClassName("number");
-const opButtons = document.getElementsByClassName("op");
+const buttons = document.getElementsByClassName("calc-button");
 let result;
 let op;
-for(let i = 0; i < numButtons.length; i++) {
-    numButtons[i].addEventListener("click", function() {
-        if(inputText.value == "Error") {
-            inputText.value = "";
-        }
-        inputText.value = inputText.value + numButtons[i].textContent;
-    })
-}
 
-for(let i = 0; i < opButtons.length; i++) {
-    opButtons[i].addEventListener("click", function() {
-        switch(opButtons[i].textContent) {
+for(let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", function() {
+        switch(buttons[i].textContent) {
             case "=": {
                 op = inputText.value;
                 try {
@@ -41,7 +32,7 @@ for(let i = 0; i < opButtons.length; i++) {
                 if(inputText.value == "Error") {
                     inputText.value = "";
                 }
-                inputText.value = inputText.value + opButtons[i].textContent;
+                inputText.value = inputText.value + buttons[i].textContent;
                 break
             }
         }
