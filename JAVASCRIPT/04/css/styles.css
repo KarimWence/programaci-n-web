@@ -42,17 +42,23 @@ body {
     scroll-behavior: smooth;
 }
 
-ul {
+#tasks-list {
     width: 100%;
     height: auto;
     list-style: none;
 }
 
 ul li {
+    height: 58px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.check {
+    border: 1px solid blue;
+    border-radius: 2px;
 }
 
 .text-task {
