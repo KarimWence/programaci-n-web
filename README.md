@@ -21,3 +21,4 @@
 1. [Ejercicio #1 - Calculadora](/JAVASCRIPT/01-calculadora/index.html)
 2. [Ejercicio #2 - Manipulación de estilos](/JAVASCRIPT/02-manipulacion-de-estilos/index.html)
 3. [Ejercicio #3 - Calculadora visual](/JAVASCRIPT/03-calculadora-visual/index.html)
+4. [Ejercicio #4 - Lista de tareas](/JAVASCRIPT/04-lista-de-tareas/index.html)
