@@ -22,3 +22,4 @@
 2. [Ejercicio #2 - Manipulación de estilos](/JAVASCRIPT/02-manipulacion-de-estilos/index.html)
 3. [Ejercicio #3 - Calculadora visual](/JAVASCRIPT/03-calculadora-visual/index.html)
 4. [Ejercicio #4 - Lista de tareas](/JAVASCRIPT/04-lista-de-tareas/index.html)
+5. [Ejercicio #5 - Tarjeta con datos base de un gato](/JAVASCRIPT/05/index.html)
